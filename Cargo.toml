@@ -1,0 +1,16 @@
+[package]
+name = "geo2city"
+version = "0.1.0"
+authors = ["Grant Handy <grantshandy@gmail.com>"]
+edition = "2018"
+license = "GPL-3.0"
+description = "Command Line Reverse Geocoder"
+keywords = ["city", "reverse", "geo", "location"]
+categories = ["command-line-interface", "command-line-utilities"]
+repository = "https://github.com/grantshandy/geo2city"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reverse_geocoder = "2.0.1"
